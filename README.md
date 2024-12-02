@@ -1,25 +1,29 @@
-# Courbes de Bézier et B-Splines en Python
+# Bézier and B-Spline Curve Visualization
 
-Ce projet implémente la génération de courbes de Bézier et de B-Splines en Python en utilisant la bibliothèque `numpy`, `matplotlib`, et `scipy`. Vous pouvez visualiser des courbes dynamiques basées sur des points de contrôle personnalisés.
+This Python project demonstrates the generation and visualization of Bézier and B-spline curves using control points. The curves are drawn with the `matplotlib` library for clear and dynamic visual representations.
 
-## Fonctionnalités
+## Features
 
-- **Courbes de Bézier** :
-  - Utilisation de l'algorithme de De Casteljau.
-  - Génération à partir de points de contrôle modifiables.
+- **Bézier Curve**:
+  - Generated using the De Casteljau algorithm.
+  - Customizable control points for dynamic shapes.
 
-- **Courbes B-Splines** :
-  - Support des splines cubiques, quadratiques, et périodiques.
-  - Gestion des nœuds uniformes ou personnalisés.
+- **B-Spline Curve**:
+  - Supports variable degrees (linear, quadratic, cubic, etc.).
+  - Allows customization of control points and knot vectors.
 
-## Prérequis
+- **Easy Customization**:
+  - All modifiable variables are located at the top of the script for simplicity.
+  - Adjust control points, degree, and resolution directly.
 
-- Python 3.8 ou supérieur
-- Bibliothèques Python :
+## Prerequisites
+
+- Python 3.8 or later
+- Required libraries:
   - `numpy`
   - `matplotlib`
   - `scipy`
 
-Pour installer les dépendances :
+Install the dependencies using:
 ```bash
 pip install numpy matplotlib scipy
